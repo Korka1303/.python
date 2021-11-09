@@ -2,14 +2,15 @@
 # Числа запрашивать у пользователя, предусмотреть обработку ситуации деления на ноль.
 
 def my_func(num1, num2):
-        if num2 == 0:
-            # i = 0
-            while True:
-                num2 = int(input('Введите второе число: '))
-                if num2 > 0:
-                    return num1 / num2
-        elif num2 != 0:
-            return num1 / num2
+    if num2 == 0:
+        # i = 0
+        print('На ноль делить нельзя!')
+        while True:
+            num2 = int(input('Введите второе число: '))
+            if num2 > 0:
+                return num1 / num2
+    elif num2 != 0:
+        return num1 / num2
 
 
-print(my_func(num1 = int(input('Введите первое число: ')), num2 = int(input('Введите второе число: '))))
+print(my_func(num1=int(input('Введите первое число: ')), num2=int(input('Введите второе число: '))))

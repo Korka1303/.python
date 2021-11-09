@@ -12,6 +12,7 @@ def neg_exponent(a, b):
         return '"B" Должна быть меньше чем 0'
     return a ** b
 
+
 a = float(input('Пожалуста напишите положительное число (a): '))
 b = int(input('Пожалуста напишите отрицательное число (b): '))
 
@@ -28,6 +29,7 @@ def neg_exponent(a, b):
     for i in range(b * -1):
         d *= a
     return 1 / d
+
 
 a = float(input('Пожалуста напишите положительное число (a): '))
 b = int(input('Пожалуста напишите отрицательное число (b): '))

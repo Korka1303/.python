@@ -10,6 +10,7 @@
 # Пример словаря:
 # {“Информатика”: 170, “Физика”: 40, “Физкультура”: 30}
 import codecs
+
 result = {}
 with codecs.open(f'studies.txt', encoding="UTF-8") as file:
     file_lines = file.readlines()

@@ -7,10 +7,10 @@
 # При этом английские числительные должны заменяться на русские.
 # Новый блок строк должен записываться в новый текстовый файл.
 num_dict = {
-        'One': 'Один',
-        'Two': 'Два',
-        'Three': 'Три',
-        'Four': 'Четыре'
+    'One': 'Один',
+    'Two': 'Два',
+    'Three': 'Три',
+    'Four': 'Четыре'
 }
 with open('text_2.txt') as file, open('new_text_2.txt', 'w') as new_file:
     file_lines = file.readlines()
